@@ -1,0 +1,12 @@
+.profile-between {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--main-color);
+  margin: 20px;
+  padding-top: 10px;
+}
+.profile-between span,
+.profile-between i {
+  color: var(--main-color);
+  opacity: 0.6;
+}

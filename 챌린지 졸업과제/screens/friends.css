@@ -1,0 +1,33 @@
+.friends-main {
+  background-color: white;
+}
+.profile-big {
+  margin-top: 105px;
+}
+@keyframes hidescreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--main-color);
+  width: 100vw;
+  height: 100vh;
+  animation: hidescreen 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+#splash-screen img {
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+}

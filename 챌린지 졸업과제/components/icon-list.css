@@ -1,0 +1,21 @@
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon__info i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.icon__info span {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.7;
+}

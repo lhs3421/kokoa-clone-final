@@ -1,0 +1,103 @@
+th<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sytle.css" />
+    <title>Line - Friends</title>
+  </head>
+  <body>
+    <main>
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>20:49</span>
+        </div>
+        <div class="status-bar__column">
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <div class="main-bar">
+        <a href="more.html">
+          <span><i class="fas fa-chevron-left"></i></span>
+        </a>
+        <span>Settings</span>
+        <span><i class="fas fa-search"></i></span>
+      </div>
+
+      <nav class="nav-bar">
+        <ul class="nav-bar__ul">
+          <li class="nav-bar__li">
+            <a href="friends.html">
+              <i class="far fa-user fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav-bar__li" id="nav-bar__notification">
+            <a href="chats.html"> <i class="far fa-comment fa-2x"></i></a>
+            <span>2</span>
+          </li>
+          <li class="nav-bar__li">
+            <a href="search.html"> <i class="fas fa-search fa-2x"></i></a>
+          </li>
+          <li class="nav-bar__li">
+            <a href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+
+    <div class="setting__menus">
+      <ul class="menus__ul">
+        <li class="menus__li">
+          <i class="fas fa-bullhorn"></i>
+          <span>Notices</span>
+        </li>
+        <li class="menus__li">
+          <i class="fas fa-flask"></i>
+          <span>Line Lab</span>
+        </li>
+        <li class="menus__li">
+          <div><i class="far fa-lightbulb"></i> <span>Version</span></div>
+          <h3>Latest Version</h3>
+        </li>
+        <li class="menus__li">
+          <i class="fas fa-lock"></i>
+          <span>Privacy</span>
+        </li>
+        <li class="menus__li">
+          <i class="far fa-bell"></i>
+          <span>Notifications</span>
+        </li>
+        <li class="menus__li">
+          <i class="far fa-user"></i>
+          <span>Friends</span>
+        </li>
+        <li class="menus__li">
+          <i class="far fa-comment"></i>
+          <span>Chats</span>
+        </li>
+        <li class="menus__li">
+          <i class="fas fa-adjust"></i>
+          <span>Display</span>
+          <span id="setting__new">N</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big 😂😂</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6ebed5af79.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

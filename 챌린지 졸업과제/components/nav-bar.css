@@ -1,0 +1,67 @@
+.nav-bar {
+  display: flex;
+  background-color: var(--main-color);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav-bar__ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 50px;
+}
+
+.nav-bar__li i {
+  color: white;
+}
+#nav-bar__notification {
+  position: relative;
+}
+#nav-bar__notification span {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: -5px;
+  right: -12px;
+  animation: upsidedown 3s ease-in-out infinite;
+}
+
+@keyframes upsidedown {
+  0% {
+    transform: 0;
+  }
+  50% {
+    transform: translateX(5px) rotateY(360deg);
+  }
+  100% {
+    transform: 0;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(1turn);
+  }
+  100% {
+    transform: none;
+  }
+}
+.nav-bar__li {
+  animation: rotate 2s ease-in-out;
+}
+.nav-bar__li:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.nav-bar__li:nth-child(3) {
+  animation-delay: 1s;
+}
+.nav-bar__li:last-child {
+  animation-delay: 1.5s;
+}
